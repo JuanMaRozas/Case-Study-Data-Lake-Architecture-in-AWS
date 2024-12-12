@@ -6,10 +6,9 @@ This repository present a Data Lake architecture that we built in a industrial c
 
 ## Architecture Components
 
-1. Data Source Layer
-
-	•	CRM and ERP systems serve as the source of data.
-	•	Data is extracted through APIs.
+**1. Data Source Layer**
+- CRM and ERP systems serve as the source of data.
+- Data is extracted through APIs.
 
 2. Data Extraction Layer
 
