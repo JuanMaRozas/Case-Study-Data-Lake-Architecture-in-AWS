@@ -6,17 +6,17 @@ This repository present a Data Lake architecture that we built in a industrial c
 
 ## Architecture Components
 
-**1. Data Source Layer**
+### 1. Data Source Layer
 - CRM and ERP systems serve as the source of data.
 - Data is extracted through APIs.
 
-2. Data Extraction Layer
+### 2. Data Extraction Layer**
 
-	AWS Lambda:
-	•	Performs incremental data extraction.
-	•	Queries the CRM/ERP systems for data modified since the last extraction (using last_modified timestamps).
-	•	Writes extracted raw data into the S3 Raw Bucket in Parquet format.
-	•	Triggers are managed via Amazon EventBridge for scheduling.
+**AWS Lambda:**
+-Performs incremental data extraction.
+-Queries the CRM/ERP systems for data modified since the last extraction (using last_modified timestamps).
+-Writes extracted raw data into the S3 Raw Bucket in Parquet format.
+-Triggers are managed via Amazon EventBridge for scheduling.
 
  3. Data Storage Layer
 
