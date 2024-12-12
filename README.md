@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository present a Data Lake architecture that we built in a industrial company. It was implemented in AWS to integrate and analyze data from CRM and ERP systems. The design focused on scalability, governance, and performance, using AWS managed services to ensure cost efficiency and easy maintenance. This Single Source of Truth (SSoT) approach played a key role in developing dashboards and reports and creating a centralized information hub that drove key commercial and financial goals.
+This repository present a Data Lake architecture implemented in an industrial company. We developed a AWS stack to integrate and analyze data from CRM and ERP systems. The design focused on scalability, governance, and performance, using AWS managed services to ensure cost efficiency and easy maintenance. This Single Source of Truth (SSoT) approach played a key role in developing dashboards and reports and creating a centralized information hub that drove key commercial and financial goals.
 
 ![AWS_Data_Architecture_Case_study](https://github.com/user-attachments/assets/a50243bb-dc87-4b5c-98ce-6bb2b4f308ef)
 
